@@ -9,12 +9,14 @@ console.error("Nascut a " + anyNeixement)
 */
 
 //2.- Declara 3 variables, cadascuna amb un tipus de dades diferent i mostra el valor per consola.
+/*
 const CONSTANTE = 5
 let patata = "7"
 var variable = true
 console.log(CONSTANTE)
 console.log(patata)
 console.log(variable)
+*/
 
 //3.- Mostra una variable per consola que hagis declarat posteriorment amb var. Què apareix? I si canvies la declaració a let ?
 console.log(marron)
