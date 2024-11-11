@@ -40,6 +40,9 @@ var var1 = null
 var var2 = undefined
 console.log(var1 + var2)
 //12.- Realitza una coerció explícita i implícita d’un booleà a String.
+let valorBoolea = true
 
+let valorString = String(valorBoolea)
+console.log(valorString)
+console.log(typeof valorString)
 //13.- Realitza una coerció explícita i implícita d’un String a booleà.
-//14.- Realitza una coerció explícita i implícita d’un booleà a Number.
