@@ -27,14 +27,19 @@ console.log(marron)
 
 //4.- Declara una variable amb un valor i mostra’l per consola.
 // Modifica el seu valor a un altre tipus de dades. Et deixa? Perquè?
-//*
+/*
 var patata = "patata"
 console.log(patata)
 patata = 7
 console.log(patata)
 //*/
 
-//5.- Declara una constant amb un valor i mostra’l per consola. Modifica el seu valor a un altre tipus de dades. Et deixa? Perquè?
+//5.- Declara una constant amb un valor i mostra’l per consola.
+// Modifica el seu valor a un altre tipus de dades. Et deixa? Perquè?
+const PATATA = "hola mundo"
+console.log(PATATA)
+PATATA = 7
+console.log(PATATA)
 
 /*Els exercicis següents realitza’ls en un fitxer .js diferent i que sigui referenciat al index.html
 6.- Donats un number i un BigInt ( 1.234 i 5.678 ), calcula les quatre operacions: suma, resta,
