@@ -11,9 +11,13 @@ console.log((num / Number(num2)).toFixed(1))
 //7.- Calcula la hipotenusa d’un triangle on les longituds dels catets sigui de 4.
 var catet1 = 4
 var cater2 = 4
-var hipotenusa = (catet1 ^2) + (cater2 *2)
+var hipotenusa = Math.sqrt((catet1 ^2) + (cater2 *2))
+console.log('la hipoteniusa es : ' + hipotenusa);
 
 //8.- Divideix un enter entre un String. Què retorna?
+var enter = 5
+var string = '5'
+console.log(enter / string)
 //9.- Donat un String amb el teu nom i cognoms, extreu el teu primer cognom, i mostra’l per pantalla
 //indicant el número de caràcters que té.
 //10.- Donat un String amb el teu nom i cognoms, esborra el caràcter de la posició 6 i mostra el
