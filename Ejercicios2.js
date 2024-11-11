@@ -18,8 +18,11 @@ console.log('la hipoteniusa es : ' + hipotenusa);
 var enter = 5
 var string = '5'
 console.log(enter / string)
+
 //9.- Donat un String amb el teu nom i cognoms, extreu el teu primer cognom, i mostra’l per pantalla
 //indicant el número de caràcters que té.
+
+
 //10.- Donat un String amb el teu nom i cognoms, esborra el caràcter de la posició 6 i mostra el
 //resultat per pantalla.
 //11.- Declara una variable undefined i un null. Què passa si els sumes?
