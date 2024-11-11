@@ -28,6 +28,13 @@ var longitud = apellido1.length
 console.log('El apellido ' + apellido1 + ' tiene ' + longitud + ' letras')
 //10.- Donat un String amb el teu nom i cognoms, esborra el caràcter de la posició 6 i mostra el
 //resultat per pantalla.
+var nomComplet = "Adria Garcia Velasco";
+var posicio = 6;
+
+var resultat = nomComplet.slice(0, posicio) + nomComplet.slice(posicio + 1);
+
+console.log("Resultat: " + resultat);
+
 //11.- Declara una variable undefined i un null. Què passa si els sumes?
 //12.- Realitza una coerció explícita i implícita d’un booleà a String.
 //13.- Realitza una coerció explícita i implícita d’un String a booleà.
