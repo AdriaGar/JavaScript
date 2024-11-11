@@ -55,6 +55,13 @@ var str = "Hola";
 var bool = Boolean(str);
 console.log(bool); // true
 
+//14.- Realitza una coerció explícita i implícita d’un booleà a Number.
+var bool = true;
+var num = bool + 0;
+console.log(num); // 1
 
+var bool = true;
+var num = Number(bool);
+console.log(num); // 1
 
 
