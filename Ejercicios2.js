@@ -21,8 +21,11 @@ console.log(enter / string)
 
 //9.- Donat un String amb el teu nom i cognoms, extreu el teu primer cognom, i mostra’l per pantalla
 //indicant el número de caràcters que té.
+var nombre = 'Adria Garcia Velasco'
+var apellido1 = nombre.split(' ')[1]
+var longitud = apellido1.length
 
-
+console.log('El apellido ' + apellido1 + ' tiene ' + longitud + ' letras')
 //10.- Donat un String amb el teu nom i cognoms, esborra el caràcter de la posició 6 i mostra el
 //resultat per pantalla.
 //11.- Declara una variable undefined i un null. Què passa si els sumes?
