@@ -36,6 +36,10 @@ var resultat = nomComplet.slice(0, posicio) + nomComplet.slice(posicio + 1);
 console.log("Resultat: " + resultat);
 
 //11.- Declara una variable undefined i un null. Què passa si els sumes?
+var var1 = null
+var var2 = undefined
+console.log(var1 + var2)
 //12.- Realitza una coerció explícita i implícita d’un booleà a String.
+
 //13.- Realitza una coerció explícita i implícita d’un String a booleà.
-//14.- Realitza una coerció explícita i implícita d’un booleà a Number.*/
+//14.- Realitza una coerció explícita i implícita d’un booleà a Number.
