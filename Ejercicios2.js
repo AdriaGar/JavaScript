@@ -46,3 +46,15 @@ let valorString = String(valorBoolea)
 console.log(valorString)
 console.log(typeof valorString)
 //13.- Realitza una coerció explícita i implícita d’un String a booleà.
+var str = "Hola";
+if (str) {
+    console.log("El string és veritat");
+}
+
+var str = "Hola";
+var bool = Boolean(str);
+console.log(bool); // true
+
+
+
+
